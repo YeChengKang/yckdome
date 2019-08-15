@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	
+	
+	
+	
+	<!-- 引入实体映射文件 -->
+	<mappers>
+		<mapper resource="cn/sz/yck/pojo/Book.xml" />
+		<mapper resource="cn/sz/yck/pojo/Users.xml" />
+		<mapper resource="cn/sz/yck/pojo/Account.xml"/>
+		<mapper resource="cn/sz/yck/pojo/StoreHouse.xml"/>
+		<mapper resource="cn/sz/yck/pojo/Order.xml"/>
+	</mappers>
+	
+</configuration>

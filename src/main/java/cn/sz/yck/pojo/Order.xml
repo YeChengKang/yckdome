@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.sz.yck.dao.IOrderDAO" >
+
+	<insert id="inserall" parameterType="cn.sz.yck.pojo.Order" >
+		insert into t_order(order_number,bookid,realname,phone,address,status,money) 
+		values(#{order_number,jdbcType=INTEGER},#{bookid,jdbcType=INTEGER},#{realname,jdbcType=VARCHAR},#{phone,jdbcType=VARCHAR},#{address,jdbcType=VARCHAR},#{status,jdbcType=INTEGER},#{money,jdbcType=INTEGER})
+	</insert>
+	
+</mapper>
